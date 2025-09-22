@@ -5,8 +5,9 @@ on:
     branches: [ "main" ]
 
 jobs:
-  build-test-deploy:
+  build-test-push:
     runs-on: ubuntu-latest
+    environment: Docker
 
     steps:
       - name: Checkout Code
