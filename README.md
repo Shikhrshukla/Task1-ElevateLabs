@@ -81,8 +81,7 @@ npm run validate > /dev/null 2>&1
 2. **Docker Usage**
 
 ```bash
-docker build -t n
-odejs-demo-app .
+docker build -t nodejs-demo-app .
 docker run --rm -d -p 8090:8090 nodejs-demo-app
 ```
 
